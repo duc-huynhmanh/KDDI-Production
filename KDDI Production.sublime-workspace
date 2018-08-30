@@ -1,0 +1,586 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ques",
+				"questionIndex"
+			],
+			[
+				"que",
+				"questionIndex"
+			],
+			[
+				"share",
+				"shareItem"
+			],
+			[
+				"sty",
+				"styleClass\t(String)"
+			],
+			[
+				"out",
+				"apex:outputPanel"
+			],
+			[
+				"them",
+				"themaItem"
+			],
+			[
+				"map",
+				"themaMap"
+			],
+			[
+				"kno",
+				"knowledgeItem"
+			],
+			[
+				"put",
+				"PUBLIC put(ANY key, ANY value) \tString"
+			],
+			[
+				"Sel",
+				"SelectOption\t[Standard Apex Class]"
+			],
+			[
+				"pane",
+				"apex:outputPanel"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"reco",
+				"recordSearch"
+			],
+			[
+				"act",
+				"apex:actionRegion"
+			],
+			[
+				"re",
+				"reRender\t(Object)"
+			],
+			[
+				"cate",
+				"cateOption"
+			],
+			[
+				"select",
+				"selectedValue"
+			],
+			[
+				"the",
+				"Thema__c"
+			],
+			[
+				"The",
+				"Thema__c"
+			],
+			[
+				"kd",
+				"kdKnowledgeNew"
+			],
+			[
+				"as",
+				"assertEquals()"
+			],
+			[
+				"rep",
+				"reply"
+			],
+			[
+				"create",
+				"createReplyDetail"
+			],
+			[
+				"reply",
+				"replyDetail"
+			],
+			[
+				"inq",
+				"inqDetail"
+			],
+			[
+				"a",
+				"PUBLIC put(ANY key, ANY value) \tString"
+			],
+			[
+				"csv",
+				"csvRow"
+			],
+			[
+				"mas",
+				"masterReply"
+			],
+			[
+				"is",
+				"PUBLIC isBlank(String str) \tBoolean"
+			],
+			[
+				"si",
+				"PUBLIC size() \tInteger"
+			],
+			[
+				"ass",
+				"assertEquals()"
+			],
+			[
+				"Date",
+				"Datetime\t[Standard Apex Class]"
+			],
+			[
+				"DAte",
+				"Datetime\t[Standard Apex Class]"
+			],
+			[
+				"DAt",
+				"Datetime\t[Standard Apex Class]"
+			],
+			[
+				"f",
+				"float-left"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"onk",
+				"onkeyup\t(String)"
+			],
+			[
+				"tar",
+				"targetField1Value"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Bra",
+				"BranchCode__c"
+			],
+			[
+				"on",
+				"onchange\t(String)"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"se",
+				"selectOptions"
+			],
+			[
+				"s",
+				"styleClass\t(String)"
+			],
+			[
+				"co",
+				"color-bright"
+			],
+			[
+				"col",
+				"color-dark"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fiel",
+				"fieldDateTo"
+			],
+			[
+				"fio",
+				"fieldDateFrom"
+			],
+			[
+				"know",
+				"knowledge"
+			],
+			[
+				"Ha",
+				"HasMovie__c"
+			],
+			[
+				"A",
+				"Attachment"
+			],
+			[
+				"kn",
+				"knowledge"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "Package Control: install package",
+		"selected_items":
+		[
+			[
+				"Package Control: install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hducmanh/Documents/KDDI Production",
+		"/Users/hducmanh/Documents/KDDI Production/src",
+		"/Users/hducmanh/Documents/KDDI Production/src/classes"
+	],
+	"file_history":
+	[
+		"/Users/hducmanh/Documents/KDDI Production/src/pages/saDailyReportListForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Production/src/classes/saDailyReportCSVFileExportingCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Production/src/pages/saDailyReportCSVFileExporting.page",
+		"/Users/hducmanh/Documents/KDDI Production/src/classes/auLoginCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Production/src/classes/auConstantCmn.cls",
+		"/Users/hducmanh/Documents/KDDI Production/src/pages/auLoginPage.page",
+		"/Users/hducmanh/Documents/KDDI Production/src/objects/kdKnowledge__c.object",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auCXKnowledgeListCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auCXKnowledgeListPage.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/kdKnowledgeHomePage.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/kdKnowledgeHomePageCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/saDailyReportListForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auLoginCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auLoginPage.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auSTPDListPage.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/saMessagesListForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/triggers/auSTPDItems_BeforeUpsert.trigger",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/triggers/auSTPD_BeforeUpsert.trigger",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/triggers/auSTPD_AfterUpsert.trigger",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/saDailyReportCSVFileExportingCtrlTest.cls",
+		"/Users/hducmanh/Documents/JEOL Sandbox/src/classes/JEOL_MaintenanceListNewCsv_ctrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/saDailyReportListForAdminCtl.cls",
+		"/Users/hducmanh/Documents/JEOL Sandbox/src/pages/JEOL_MaintenanceListNewCsv.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/saDailyReportEditorForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/saDailyReportEditorForAdminCtl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/saDailyReportCSVFileExporting.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/saDailyReportListForAdminCtlTest.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/saDailyReportCSVFileExportingCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auScheduleListCSV.page",
+		"/Users/hducmanh/Desktop/saDailyReportListForAdminStyle.css",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/staticresources/saDailyReportListForAdminStyle.resource",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/staticresources/saDailyReportEditorForAdminStyle.resource",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/staticresources/saDailyReportEditorForAdminScript.resource",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/saDailyReportListForAdmin.page-meta.xml",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/staticresources/auDailyReportEditorForAdminScript.resource",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/staticresources/auDailyReportEditorForAdminStyle.resource",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auDailyReportEditorForAdminCtl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auDailyReportListForAdminCtl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auDailyReportEditorForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auDailyReportListForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auUtilCmn.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/UnderConstruction.page-meta.xml",
+		"/Users/hducmanh/Desktop/auDailyReportEditorForAdminCtlBackup.cls",
+		"/Users/hducmanh/Desktop/auDailyReportEditorForAdminBackup.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/kdKnowledgeListPage.page",
+		"/Users/hducmanh/Desktop/auDailyReportEditorForAdminScript.js",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auDailyReportCreateForAdminCtl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auDailyReportCreateForAdmin.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/staticresources/auDailyRportListForAdminStyle.resource",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/components/auWaitSearchPanel.component",
+		"/Users/hducmanh/Desktop/auDailyReportListForAdminBackup.Page.html",
+		"/Users/hducmanh/Desktop/auDailyReportListForAdminStyleBackup.css",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auCxKnowledgeTimelinePage.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auDailyReportCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auDailyReport.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/kdKnowledgeListCtrl.cls",
+		"/Users/hducmanh/Desktop/controller-backup.cls",
+		"/Users/hducmanh/Desktop/page-backup.page.html",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auConstantCmn.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auCxKnowledgeTimelineCtrl.cls",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/pages/auSwitchScreenPage.page",
+		"/Users/hducmanh/Documents/KDDI Sandbox/src/classes/auUrlRewriter.cls"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"loginPassword"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "KDDI Production.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sadailyrep",
+				"src/pages/saDailyReportListForAdmin.page"
+			],
+			[
+				"sadail",
+				"src/pages/saDailyReportCSVFileExporting.page"
+			],
+			[
+				"aulogin",
+				"src/pages/auLoginPage.page"
+			],
+			[
+				"aulo",
+				"src/classes/auLoginCtrl.cls"
+			],
+			[
+				"login",
+				"src/classes/auLoginCtrl.cls"
+			],
+			[
+				"sadailyreportf",
+				"src/classes/saDailyReportListForAdminCtl.cls"
+			],
+			[
+				"csv",
+				"src/classes/saDailyReportCSVFileExportingCtrl.cls"
+			],
+			[
+				"kdkn",
+				"src/classes/kdKnowledgeHomePageCtrl.cls"
+			],
+			[
+				"kd",
+				"src/classes/kdKnowledgeListCtrl.cls"
+			],
+			[
+				"jeol_maintenancelistnewcsv_ctrl",
+				"JEOL Sandbox/src/classes/JEOL_MaintenanceListNewCsv_ctrl.cls"
+			],
+			[
+				"sadai",
+				"src/classes/saDailyReportListForAdminCtl.cls"
+			],
+			[
+				"sadailyreportcsvfileexporting",
+				"src/classes/saDailyReportCSVFileExportingCtrl.cls"
+			],
+			[
+				"sadailyreportlistforadminctl",
+				"src/classes/saDailyReportListForAdminCtlTest.cls"
+			],
+			[
+				"cx",
+				"src/pages/auCXKnowledgeListPage.page"
+			],
+			[
+				"sadailyreportl",
+				"src/classes/saDailyReportListForAdminCtl.cls"
+			],
+			[
+				"sada",
+				"src/pages/saDailyReportListForAdmin.page"
+			],
+			[
+				"sadailyreported",
+				"src/staticresources/saDailyReportEditorForAdminStyle.resource"
+			],
+			[
+				"sadailyreporte",
+				"src/pages/saDailyReportEditorForAdmin.page"
+			],
+			[
+				"sa",
+				"src/classes/saDailyReportListForAdminCtl.cls"
+			],
+			[
+				"sadailyreportlis",
+				"src/pages/saDailyReportListForAdmin.page"
+			],
+			[
+				"audai",
+				"src/pages/auDailyReportListForAdmin.page"
+			],
+			[
+				"audailyreportlis",
+				"src/classes/auDailyReportListForAdminCtl.cls"
+			],
+			[
+				"audailyreported",
+				"src/classes/auDailyReportEditorForAdminCtl.cls"
+			],
+			[
+				"audailyre",
+				"src/pages/auDailyReportEditorForAdmin.page"
+			],
+			[
+				"dk",
+				"src/pages/kdKnowledgeListPage.page"
+			],
+			[
+				"audailyreportf",
+				"src/classes/auDailyReportCreateForAdminCtl.cls"
+			],
+			[
+				"audail",
+				"src/pages/auDailyReportCreateForAdmin.page"
+			],
+			[
+				"kno",
+				"src/pages/kdKnowledgeListPage.page"
+			],
+			[
+				"aucxknowledgelistpage",
+				"src/pages/auCXKnowledgeListPage.page"
+			],
+			[
+				"auloginctrl",
+				"src/classes/auLoginCtrl.cls"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 451.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

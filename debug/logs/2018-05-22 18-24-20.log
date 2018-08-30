@@ -1,0 +1,65 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: List<User> lsUsr = [SELECT Id, CreatedDate from User where CreatedDate=TODAY LIMIT 110];
+Execute Anonymous: 
+Execute Anonymous: For (User usr : lsUsr) {
+Execute Anonymous: 	System.setPassword(usr.Id, 'aU000000');
+Execute Anonymous: }
+Execute Anonymous: 
+Execute Anonymous: Update lsUsr;
+18:24:20.0 (899883)|USER_INFO|[EXTERNAL]|0056F000006PtYl|gwadmin@gw.jp.kddi|日本標準時|GMT+09:00
+18:24:20.0 (922904)|EXECUTION_STARTED
+18:24:20.0 (927979)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+18:24:20.0 (1149423)|VARIABLE_SCOPE_BEGIN|[1]|lsUsr|List<User>|true|false
+18:24:20.0 (1270412)|HEAP_ALLOCATE|[72]|Bytes:3
+18:24:20.0 (1310800)|HEAP_ALLOCATE|[77]|Bytes:152
+18:24:20.0 (1335606)|HEAP_ALLOCATE|[342]|Bytes:408
+18:24:20.0 (1349978)|HEAP_ALLOCATE|[355]|Bytes:408
+18:24:20.0 (1362103)|HEAP_ALLOCATE|[467]|Bytes:48
+18:24:20.0 (1394740)|HEAP_ALLOCATE|[139]|Bytes:6
+18:24:20.0 (1417245)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+18:24:20.0 (1541143)|STATEMENT_EXECUTE|[1]
+18:24:20.0 (1544225)|STATEMENT_EXECUTE|[1]
+18:24:20.0 (1547743)|HEAP_ALLOCATE|[1]|Bytes:68
+18:24:20.0 (1569980)|HEAP_ALLOCATE|[1]|Bytes:4
+18:24:20.0 (1612262)|HEAP_ALLOCATE|[50]|Bytes:5
+18:24:20.0 (1634883)|HEAP_ALLOCATE|[56]|Bytes:5
+18:24:20.0 (1642774)|HEAP_ALLOCATE|[64]|Bytes:7
+18:24:20.0 (1956500)|SOQL_EXECUTE_BEGIN|[1]|Aggregations:0|SELECT Id, CreatedDate FROM User WHERE CreatedDate = TODAY LIMIT 110
+18:24:20.0 (10455420)|SOQL_EXECUTE_END|[1]|Rows:4
+18:24:20.0 (10486623)|HEAP_ALLOCATE|[1]|Bytes:20
+18:24:20.0 (10509331)|HEAP_ALLOCATE|[1]|Bytes:192
+18:24:20.0 (10575748)|HEAP_ALLOCATE|[1]|Bytes:20
+18:24:20.0 (10654123)|VARIABLE_ASSIGNMENT|[1]|lsUsr|[{"Id":"0056F000007edZJQAY","CreatedDate":"2018-05-22T09:15:46.000Z"},{"Id":"0056F000007edZKQAY","CreatedDate":"2018-05-22T09:16:27.000Z"},{"Id":"0056F000007edZLQAY","CreatedDate":"2018-05-22T09:16:36.000Z"},{"Id":"0056F000007edZMQAY","CreatedDate":"2018-05-22T09:16:36.000Z"}]|0x37c8bef
+18:24:20.0 (10889798)|HEAP_ALLOCATE|[3]|Bytes:5
+18:24:20.0 (10914806)|HEAP_ALLOCATE|[3]|Bytes:12
+18:24:20.0 (10928090)|VARIABLE_SCOPE_BEGIN|[3]|usr|User|true|false
+18:24:20.0 (10950909)|VARIABLE_ASSIGNMENT|[3]|usr|{"Id":"0056F000007edZJQAY","CreatedDate":"2018-05-22T09:15:46.000Z"}|0x33a0053e
+18:24:20.0 (10958837)|STATEMENT_EXECUTE|[3]
+18:24:20.0 (10961160)|STATEMENT_EXECUTE|[4]
+18:24:20.0 (10995638)|HEAP_ALLOCATE|[4]|Bytes:8
+18:24:20.0 (11067753)|DML_BEGIN|[4]|Op:setPassword|Type:User|Rows:1
+18:24:20.0 (17579190)|EXCEPTION_THROWN|[4]|System.UnexpectedException: INACTIVE_OWNER_OR_USER: owner or user is inactive. Org Id:00D6F000000GZQd
+18:24:20.0 (17604432)|DML_END|[4]
+18:24:20.0 (17696867)|HEAP_ALLOCATE|[4]|Bytes:77
+18:24:20.0 (17814108)|FATAL_ERROR|System.UnexpectedException: INACTIVE_OWNER_OR_USER: owner or user is inactive. Org Id:00D6F000000GZQd
+
+AnonymousBlock: line 4, column 1
+18:24:20.17 (17861618)|CUMULATIVE_LIMIT_USAGE
+18:24:20.17 (17861618)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 4 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+18:24:20.17 (17861618)|CUMULATIVE_LIMIT_USAGE_END
+
+18:24:20.0 (17897820)|CODE_UNIT_FINISHED|execute_anonymous_apex
+18:24:20.0 (18832383)|EXECUTION_FINISHED

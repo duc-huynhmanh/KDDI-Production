@@ -1,0 +1,198 @@
+36.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:47:21.0 (53340)|USER_INFO|[EXTERNAL]|0056F000006PtYl|gwadmin@gw.jp.kddi|日本標準時|GMT+09:00
+11:47:21.0 (83745)|EXECUTION_STARTED
+11:47:21.0 (88108)|CODE_UNIT_STARTED|[EXTERNAL]|0666F0000066wqZ|VF: /apex/saDailyReportListForAdmin
+11:47:21.0 (621730)|VF_DESERIALIZE_VIEWSTATE_BEGIN|0666F0000066wqZ
+11:47:21.0 (7847566)|HEAP_ALLOCATE|[72]|Bytes:3
+11:47:21.0 (7899186)|HEAP_ALLOCATE|[77]|Bytes:152
+11:47:21.0 (7912441)|HEAP_ALLOCATE|[342]|Bytes:408
+11:47:21.0 (7925346)|HEAP_ALLOCATE|[355]|Bytes:408
+11:47:21.0 (7936709)|HEAP_ALLOCATE|[467]|Bytes:48
+11:47:21.0 (7996807)|HEAP_ALLOCATE|[139]|Bytes:6
+11:47:21.0 (8034648)|HEAP_ALLOCATE|[50]|Bytes:5
+11:47:21.0 (8054635)|HEAP_ALLOCATE|[56]|Bytes:5
+11:47:21.0 (8063288)|HEAP_ALLOCATE|[64]|Bytes:7
+11:47:21.0 (9341385)|VARIABLE_SCOPE_BEGIN|[39]|saDailyReportListForAdminCtl.BASE_QUERY_STRING|String|false|true
+11:47:21.0 (9492246)|VARIABLE_SCOPE_BEGIN|[44]|saDailyReportListForAdminCtl.QUERY_LIMIT|String|false|true
+11:47:21.0 (9505118)|VARIABLE_SCOPE_BEGIN|[45]|saDailyReportListForAdminCtl.QUERY_LIMIT_MAX|String|false|true
+11:47:21.0 (9513413)|VARIABLE_SCOPE_BEGIN|[43]|saDailyReportListForAdminCtl.SELECTOPTION_ALL|String|false|true
+11:47:21.0 (9524853)|VARIABLE_SCOPE_BEGIN|[42]|saDailyReportListForAdminCtl.SELECTOPTION_LASTMODIFIED|String|false|true
+11:47:21.0 (9570028)|VARIABLE_SCOPE_BEGIN|[54]|saDailyReportListForAdminCtl.targetRecordsOption|List<System.SelectOption>|true|true
+11:47:21.0 (12710464)|VF_DESERIALIZE_VIEWSTATE_END
+11:47:21.0 (17591422)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (17629361)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:312
+11:47:21.0 (17669492)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:112
+11:47:21.0 (17675171)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:18
+11:47:21.0 (17680485)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:47:21.0 (17711955)|VARIABLE_ASSIGNMENT|[EXTERNAL]|saDailyReportListForAdminCtl.QUERY_LIMIT|"1000"
+11:47:21.0 (17718081)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+11:47:21.0 (17725119)|VARIABLE_ASSIGNMENT|[EXTERNAL]|saDailyReportListForAdminCtl.QUERY_LIMIT_MAX|"10000"
+11:47:21.0 (17729680)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+11:47:21.0 (17735805)|VARIABLE_ASSIGNMENT|[EXTERNAL]|saDailyReportListForAdminCtl.SELECTOPTION_ALL|"2"
+11:47:21.0 (17740247)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+11:47:21.0 (17746075)|VARIABLE_ASSIGNMENT|[EXTERNAL]|saDailyReportListForAdminCtl.SELECTOPTION_LASTMODIFIED|"1"
+11:47:21.0 (17770090)|METHOD_ENTRY|[1]|01p6F000006sUQo|saDailyReportListForAdminCtl.saDailyReportListForAdminCtl()
+11:47:21.0 (17776847)|STATEMENT_EXECUTE|[1]
+11:47:21.0 (17781183)|STATEMENT_EXECUTE|[1]
+11:47:21.0 (17792390)|SYSTEM_MODE_ENTER|false
+11:47:21.0 (17800960)|HEAP_ALLOCATE|[39]|Bytes:5
+11:47:21.0 (17806068)|STATEMENT_EXECUTE|[39]
+11:47:21.0 (17809527)|HEAP_ALLOCATE|[39]|Bytes:215
+11:47:21.0 (17822811)|VARIABLE_ASSIGNMENT|[39]|saDailyReportListForAdminCtl.BASE_QUERY_STRING|"SELECT RegionalOffic (195 more) ..."
+11:47:21.0 (17827450)|STATEMENT_EXECUTE|[55]
+11:47:21.0 (17829096)|STATEMENT_EXECUTE|[56]
+11:47:21.0 (17840388)|HEAP_ALLOCATE|[56]|Bytes:4
+11:47:21.0 (17966304)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:47:21.0 (17981332)|VARIABLE_ASSIGNMENT|[EXTERNAL]|value|[]|0x7574130d
+11:47:21.0 (17995549)|VARIABLE_ASSIGNMENT|[54]|saDailyReportListForAdminCtl.targetRecordsOption|[]|0x7574130d
+11:47:21.0 (18023608)|STATEMENT_EXECUTE|[57]
+11:47:21.0 (18057837)|HEAP_ALLOCATE|[57]|Bytes:9
+11:47:21.0 (18096519)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:47:21.0 (18104956)|STATEMENT_EXECUTE|[58]
+11:47:21.0 (18121873)|HEAP_ALLOCATE|[58]|Bytes:5
+11:47:21.0 (18137064)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:47:21.0 (18146520)|SYSTEM_MODE_EXIT|false
+11:47:21.0 (18166624)|METHOD_EXIT|[1]|saDailyReportListForAdminCtl
+11:47:21.18 (18680533)|SYSTEM_MODE_ENTER|true
+11:47:21.18 (18749833)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:38
+11:47:21.18 (18759089)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:7
+11:47:21.18 (18766420)|SYSTEM_METHOD_ENTRY|[1]|PageMessagesComponentController.PageMessagesComponentController()
+11:47:21.18 (18770908)|STATEMENT_EXECUTE|[1]
+11:47:21.36 (36375338)|SYSTEM_MODE_ENTER|true
+11:47:21.36 (36434845)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:47:21.36 (36445233)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+11:47:21.36 (36490857)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x6c37c49b
+11:47:21.36 (36498271)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+11:47:21.36 (36506722)|VARIABLE_ASSIGNMENT|[88]|escape|null
+11:47:21.0 (36821797)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (37033771)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (37247985)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (37568436)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (37579283)|VARIABLE_SCOPE_BEGIN|[374]|this|saDailyReportListForAdminCtl|true|false
+11:47:21.0 (37964614)|VARIABLE_ASSIGNMENT|[374]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (37993844)|SYSTEM_MODE_ENTER|false
+11:47:21.0 (38005172)|HEAP_ALLOCATE|[375]|Bytes:5
+11:47:21.0 (38011999)|STATEMENT_EXECUTE|[374]
+11:47:21.0 (38014287)|STATEMENT_EXECUTE|[375]
+11:47:21.0 (38018649)|VARIABLE_SCOPE_BEGIN|[375]|recs|List<saInquiry__c>|true|false
+11:47:21.0 (38029289)|VARIABLE_ASSIGNMENT|[375]|recs|null|
+11:47:21.0 (38197583)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (38223581)|STATEMENT_EXECUTE|[376]
+11:47:21.0 (38225446)|STATEMENT_EXECUTE|[377]
+11:47:21.0 (38358887)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (38434890)|HEAP_ALLOCATE|[377]|Bytes:16
+11:47:21.0 (38465384)|HEAP_ALLOCATE|[377]|Bytes:16
+11:47:21.0 (38557675)|VARIABLE_ASSIGNMENT|[377]|recs|[{"RegionalOfficeCode__ (1 more) ...":"S010K0J0209","ReportName__c":"【C広域】全国統一フォーマット（West (1 more) ...","CreatedDate":"2018-04-17T10:15:41.000Z","LastModifiedDate":"2018-05-22T02:04:02.000Z","LastModifiedDateForm (6 more) ...":"2018-05-22T00:00:00.000Z","Type__c":"DAILY_REPORT","Status__c":"Saved","CreatedById":"0056F00000820CaQAI","LastModifiedById":"0056F000008cm6JQAQ","ValidFrom__c":"2018-04-18T00:00:00.000Z","ValidTo__c":"2020-03-31T00:00:00.000Z","IsValid__c":true,"Id":"a0I6F00000jupyxUAA","CreatedBy":{"Name":"嶋倉 健晴","Id":"0056F00000820CaQAI"},"LastModifiedBy":{"Name":"光山 翔悟","Id":"0056F000008cm6JQAQ"}},{"RegionalOfficeCode__ (1 more) ...":"S010M0L020A","ReportName__c":"【C広域】全国統一フォーマット(West (1 more) ...","CreatedDate":"2018-04-09T05:08:24.000Z","LastModifiedDate":"2018-05-16T11:40:41.000Z","LastModifiedDateForm (6 more) ...":"2018-05-16T00:00:00.000Z","Type__c":"DAILY_REPORT","Status__c":"Saved","CreatedById":"0056F00000820KLQAY","LastModifiedById":"0056F000008cmKBQAY","ValidFrom__c":"2018-03-20T00:00:00.000Z","ValidTo__c":"2018-12-31T00:00:00.000Z","IsValid__c":true,"Id":"a0I6F00000jCDtNUAW","CreatedBy":{"Name":"宮澤 祐一","Id":"0056F00000820KLQAY"},"LastModifiedBy":{"Name":"夏目 知直","Id":"0056F000008cmKBQAY"}},{"RegionalOfficeCode__ (1 more) ...":"S010M0L020A","ReportName__c":"【C広域】全国統一フォーマット(West (1 more) ...","CreatedDate":"2018-03-30T02:28:52.000Z","LastModifiedDate":"2018-05-08T23:42:31.000Z","LastModifiedDateForm (6 more) ...":"2018-05-09T00:00:00.000Z","Type__c":"DAILY_REPORT","Status__c":"Saved","CreatedById":"0056F00000820CaQAI","LastModifiedById":"0056F000006PtYlQAK","ValidFrom__c":"2018-03-20T00:00:00.000Z","ValidTo__c":"2018-12-31T00:00:00.000Z","IsValid__c":true,"Id":"a0I6F00000jBrlEUAS","CreatedBy":{"Name":"嶋倉 健晴","Id":"0056F00000820CaQAI"},"LastModifiedBy":{"Name":"auPortal システム開発","Id":"0056F000006PtYlQAK"}}]|0x4e1eedbf
+11:47:21.0 (38592036)|STATEMENT_EXECUTE|[379]
+11:47:21.0 (38594480)|STATEMENT_EXECUTE|[382]
+11:47:21.0 (38598670)|SYSTEM_MODE_EXIT|false
+11:47:21.0 (40025743)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (40101403)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (40149526)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (40194620)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (40233779)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (40274655)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41083892)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41113616)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:16
+11:47:21.0 (41120119)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (41144766)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.orderTarget|"LastModifiedDate"|0x3f7ca16a
+11:47:21.0 (41189868)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41205261)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:1
+11:47:21.0 (41209870)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (41218382)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.targetRecords|"1"|0x3f7ca16a
+11:47:21.0 (41245413)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41257901)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (41265643)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.filterShisha|null|0x3f7ca16a
+11:47:21.0 (41290862)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41303386)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (41310934)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.filterCreatorName|""|0x3f7ca16a
+11:47:21.0 (41334394)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41347249)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:21
+11:47:21.0 (41351287)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (41358710)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.filterReportName|"【C広域】全国統一フォーマット（West (1 more) ..."|0x3f7ca16a
+11:47:21.0 (41393631)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41408143)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (41415446)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this.filterValidityDate|""|0x3f7ca16a
+11:47:21.41 (41530043)|SYSTEM_MODE_ENTER|true
+11:47:21.41 (41576069)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:47:21.41 (41583959)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+11:47:21.41 (41605842)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x6c37c49b
+11:47:21.41 (41613186)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+11:47:21.41 (41620629)|VARIABLE_ASSIGNMENT|[88]|escape|null
+11:47:21.0 (41684938)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41817624)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (41963809)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (42520794)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (42532415)|VARIABLE_SCOPE_BEGIN|[294]|this|saDailyReportListForAdminCtl|true|false
+11:47:21.0 (42690340)|VARIABLE_ASSIGNMENT|[294]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (42716170)|SYSTEM_MODE_ENTER|false
+11:47:21.0 (42724189)|HEAP_ALLOCATE|[295]|Bytes:5
+11:47:21.0 (42729663)|STATEMENT_EXECUTE|[294]
+11:47:21.0 (42731755)|STATEMENT_EXECUTE|[295]
+11:47:21.0 (42783634)|HEAP_ALLOCATE|[295]|Bytes:4
+11:47:21.0 (42803927)|HEAP_ALLOCATE|[295]|Bytes:4
+11:47:21.0 (42827243)|SYSTEM_MODE_EXIT|false
+11:47:21.0 (55789937)|SYSTEM_MODE_ENTER|true
+11:47:21.56 (56191307)|SYSTEM_MODE_ENTER|true
+11:47:21.56 (56265507)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:47:21.56 (56280025)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+11:47:21.56 (56321473)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x6c37c49b
+11:47:21.56 (56329607)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+11:47:21.56 (56337941)|VARIABLE_ASSIGNMENT|[88]|escape|null
+11:47:21.56 (56437585)|SYSTEM_MODE_ENTER|true
+11:47:21.56 (56469665)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:47:21.56 (56477695)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+11:47:21.56 (56495680)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x6c37c49b
+11:47:21.0 (57161012)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (57485105)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (57602600)|SYSTEM_MODE_ENTER|true
+11:47:21.0 (57657584)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:80
+11:47:21.0 (57666259)|VARIABLE_SCOPE_BEGIN|[374]|this|saDailyReportListForAdminCtl|true|false
+11:47:21.0 (57926405)|VARIABLE_ASSIGNMENT|[374]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (57955377)|SYSTEM_MODE_ENTER|false
+11:47:21.0 (57962703)|HEAP_ALLOCATE|[375]|Bytes:5
+11:47:21.0 (57968812)|STATEMENT_EXECUTE|[374]
+11:47:21.0 (57971246)|STATEMENT_EXECUTE|[375]
+11:47:21.0 (57975731)|VARIABLE_SCOPE_BEGIN|[375]|recs|List<saInquiry__c>|true|false
+11:47:21.0 (57985442)|VARIABLE_ASSIGNMENT|[375]|recs|null|
+11:47:21.0 (58131574)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (58153875)|STATEMENT_EXECUTE|[376]
+11:47:21.0 (58156576)|STATEMENT_EXECUTE|[377]
+11:47:21.0 (58281939)|VARIABLE_ASSIGNMENT|[EXTERNAL]|this|{"conditionStr":" WHERE IsEvolva__c = false AND  Type__c = 'DAILY_REPORT'  AND  ReportName__c LIKE '%【C広域】全国統一フォーマット（West）%' ","currentUser":"0x417b70c","errFlg":true,"filterCreatorName":"","filterReportName":"【C広域】全国統一フォーマット（West）","filterValidityDate":"","initSearchFlg":"true","limitStr":" LIMIT 1000","mpShishaOptions":"0x16939551","orderDesc":true,"orderTarget":"LastModifiedDate","pageNum":1,"pageSize":50,"ssc":"core.apexpages.components.framework.controller.SetOrientedStandardControllerImpl@14af776b","targetRecords":"1"}|0x3f7ca16a
+11:47:21.0 (58332312)|HEAP_ALLOCATE|[377]|Bytes:16
+11:47:21.0 (58362871)|HEAP_ALLOCATE|[377]|Bytes:16
+11:47:21.0 (58468340)|VARIABLE_ASSIGNMENT|[377]|recs|[{"RegionalOfficeCode__ (1 more) ...":"S010K0J0209","ReportName__c":"【C広域】全国統一フォーマット（West (1 more) ...","CreatedDate":"2018-04-17T10:15:41.000Z","LastModifiedDate":"2018-05-22T02:04:02.000Z","LastModifiedDateForm (6 more) ...":"2018-05-22T00:00:00.000Z","Type__c":"DAILY_REPORT","Status__c":"Saved","CreatedById":"0056F00000820CaQAI","LastModifiedById":"0056F000008cm6JQAQ","ValidFrom__c":"2018-04-18T00:00:00.000Z","ValidTo__c":"2020-03-31T00:00:00.000Z","IsValid__c":true,"Id":"a0I6F00000jupyxUAA","CreatedBy":{"Name":"嶋倉 健晴","Id":"0056F00000820CaQAI"},"LastModifiedBy":{"Name":"光山 翔悟","Id":"0056F000008cm6JQAQ"}},{"RegionalOfficeCode__ (1 more) ...":"S010M0L020A","ReportName__c":"【C広域】全国統一フォーマット(West (1 more) ...","CreatedDate":"2018-04-09T05:08:24.000Z","LastModifiedDate":"2018-05-16T11:40:41.000Z","LastModifiedDateForm (6 more) ...":"2018-05-16T00:00:00.000Z","Type__c":"DAILY_REPORT","Status__c":"Saved","CreatedById":"0056F00000820KLQAY","LastModifiedById":"0056F000008cmKBQAY","ValidFrom__c":"2018-03-20T00:00:00.000Z","ValidTo__c":"2018-12-31T00:00:00.000Z","IsValid__c":true,"Id":"a0I6F00000jCDtNUAW","CreatedBy":{"Name":"宮澤 祐一","Id":"0056F00000820KLQAY"},"LastModifiedBy":{"Name":"夏目 知直","Id":"0056F000008cmKBQAY"}},{"RegionalOfficeCode__ (1 more) ...":"S010M0L020A","ReportName__c":"【C広域】全国統一フォーマット(West (1 more) ...","CreatedDate":"2018-03-30T02:28:52.000Z","LastModifiedDate":"2018-05-08T23:42:31.000Z","LastModifiedDateForm (6 more) ...":"2018-05-09T00:00:00.000Z","Type__c":"DAILY_REPORT","Status__c":"Saved","CreatedById":"0056F00000820CaQAI","LastModifiedById":"0056F000006PtYlQAK","ValidFrom__c":"2018-03-20T00:00:00.000Z","ValidTo__c":"2018-12-31T00:00:00.000Z","IsValid__c":true,"Id":"a0I6F00000jBrlEUAS","CreatedBy":{"Name":"嶋倉 健晴","Id":"0056F00000820CaQAI"},"LastModifiedBy":{"Name":"auPortal システム開発","Id":"0056F000006PtYlQAK"}}]|0x4c5e9296
+11:47:21.0 (58501823)|STATEMENT_EXECUTE|[379]
+11:47:21.0 (58504240)|STATEMENT_EXECUTE|[382]
+11:47:21.0 (58509987)|SYSTEM_MODE_EXIT|false
+11:47:21.60 (60194925)|SYSTEM_MODE_ENTER|true
+11:47:21.60 (60250111)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:47:21.60 (60259126)|VARIABLE_SCOPE_BEGIN|[88]|this|ApexPage.PageMessagesComponentController|true|false
+11:47:21.60 (60281448)|VARIABLE_ASSIGNMENT|[88]|this|{}|0x6c37c49b
+11:47:21.60 (60287993)|VARIABLE_SCOPE_BEGIN|[88]|escape|Boolean|false|false
+11:47:21.60 (60295732)|VARIABLE_ASSIGNMENT|[88]|escape|null
+11:47:21.60 (60414072)|SYSTEM_MODE_ENTER|true
+11:47:21.60 (60447027)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:47:21.60 (60454324)|VARIABLE_SCOPE_BEGIN|[2]|this|ApexPage.PageMessagesComponentController|true|false
+11:47:21.60 (60472530)|VARIABLE_ASSIGNMENT|[2]|this|{}|0x6c37c49b
+11:47:21.0 (63535548)|VF_SERIALIZE_VIEWSTATE_BEGIN|0666F0000066wqZ
+11:47:21.0 (68123998)|VF_SERIALIZE_VIEWSTATE_END
+11:47:21.72 (72256872)|CUMULATIVE_LIMIT_USAGE
+11:47:21.72 (72256872)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:47:21.72 (72256872)|CUMULATIVE_LIMIT_USAGE_END
+
+11:47:21.0 (72288826)|CODE_UNIT_FINISHED|VF: /apex/saDailyReportListForAdmin
+11:47:21.0 (73118797)|EXECUTION_FINISHED

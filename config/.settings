@@ -1,0 +1,21 @@
+{
+    "projectName": "KDDI Production",
+    "username": "gwadmin@gw.jp.kddi",
+    "id": "4e25eec0-2e6a-11e8-b251-27f7df346a29",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://au-portal.my.salesforce.com",
+    "workspace": "/Users/hducmanh/Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomObject",
+        "CustomPermission",
+        "PermissionSet",
+        "Profile",
+        "StaticResource"
+    ]
+}

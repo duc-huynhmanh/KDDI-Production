@@ -1,0 +1,67 @@
+42.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: Datetime thisWeek = Datetime.now().addDays(-7);
+Execute Anonymous: String query = 'SELECT InThisWeek__c FROM kdKnowledgeDetail__c WHERE InThisWeek__c = true AND CreatedDate < ' + thisWeek.formatGMT('yyyy-MM-dd\'T\'HH:mm:ss\'Z\'');
+Execute Anonymous: 
+Execute Anonymous: system.debug('query: ' + query);
+Execute Anonymous: Database.QueryLocator l = Database.getQueryLocator(query);
+Execute Anonymous: system.debug('listK: ' + l);
+18:45:59.0 (893741)|USER_INFO|[EXTERNAL]|0056F000006PtYl|gwadmin@gw.jp.kddi|日本標準時|GMT+09:00
+18:45:59.0 (915234)|EXECUTION_STARTED
+18:45:59.0 (919762)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+18:45:59.0 (1082224)|VARIABLE_SCOPE_BEGIN|[5]|l|Database.QueryLocator|true|false
+18:45:59.0 (1319754)|VARIABLE_SCOPE_BEGIN|[2]|query|String|false|false
+18:45:59.0 (1348966)|VARIABLE_SCOPE_BEGIN|[1]|thisWeek|Datetime|false|false
+18:45:59.0 (1464695)|HEAP_ALLOCATE|[72]|Bytes:3
+18:45:59.0 (1527853)|HEAP_ALLOCATE|[77]|Bytes:152
+18:45:59.0 (1545336)|HEAP_ALLOCATE|[342]|Bytes:408
+18:45:59.0 (1558339)|HEAP_ALLOCATE|[355]|Bytes:408
+18:45:59.0 (1568686)|HEAP_ALLOCATE|[467]|Bytes:48
+18:45:59.0 (1604371)|HEAP_ALLOCATE|[139]|Bytes:6
+18:45:59.0 (1627646)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:9
+18:45:59.0 (1770801)|STATEMENT_EXECUTE|[1]
+18:45:59.0 (1773469)|STATEMENT_EXECUTE|[1]
+18:45:59.0 (1823963)|HEAP_ALLOCATE|[1]|Bytes:56
+18:45:59.0 (1849138)|HEAP_ALLOCATE|[1]|Bytes:56
+18:45:59.0 (1901785)|VARIABLE_ASSIGNMENT|[1]|thisWeek|"2018-05-15T09:45:59.274Z"
+18:45:59.0 (1908056)|STATEMENT_EXECUTE|[2]
+18:45:59.0 (1911301)|HEAP_ALLOCATE|[2]|Bytes:92
+18:45:59.0 (1919050)|HEAP_ALLOCATE|[2]|Bytes:24
+18:45:59.0 (1950176)|HEAP_ALLOCATE|[2]|Bytes:20
+18:45:59.0 (1966793)|HEAP_ALLOCATE|[2]|Bytes:112
+18:45:59.0 (1981567)|VARIABLE_ASSIGNMENT|[2]|query|"SELECT InThisWeek__c (92 more) ..."
+18:45:59.0 (1987475)|STATEMENT_EXECUTE|[4]
+18:45:59.0 (1990091)|HEAP_ALLOCATE|[4]|Bytes:7
+18:45:59.0 (1996434)|HEAP_ALLOCATE|[4]|Bytes:119
+18:45:59.0 (2031184)|HEAP_ALLOCATE|[50]|Bytes:5
+18:45:59.0 (2054895)|HEAP_ALLOCATE|[56]|Bytes:5
+18:45:59.0 (2062783)|HEAP_ALLOCATE|[64]|Bytes:7
+18:45:59.0 (2102422)|USER_DEBUG|[4]|DEBUG|query: SELECT InThisWeek__c FROM kdKnowledgeDetail__c WHERE InThisWeek__c = true AND CreatedDate < 2018-05-15T09:45:59Z
+18:45:59.0 (2113083)|STATEMENT_EXECUTE|[5]
+18:45:59.0 (4620829)|SOQL_EXECUTE_BEGIN|[5]|Aggregations:0|SELECT InThisWeek__c FROM kdKnowledgeDetail__c 
+18:46:01.999 (2999537247)|SOQL_EXECUTE_END|[5]|Rows:2177
+18:46:01.999 (2999637541)|HEAP_ALLOCATE|[5]|Bytes:20
+18:46:01.999 (2999708513)|VARIABLE_ASSIGNMENT|[5]|l|{"query":"SELECT InThisWeek__c (92 more) ..."}|0x20ef0c79
+18:46:01.999 (2999718670)|STATEMENT_EXECUTE|[6]
+18:46:01.999 (2999723597)|HEAP_ALLOCATE|[6]|Bytes:7
+18:46:01.999 (2999818734)|HEAP_ALLOCATE|[6]|Bytes:141
+18:46:01.999 (2999837943)|HEAP_ALLOCATE|[6]|Bytes:148
+18:46:01.999 (2999865055)|USER_DEBUG|[6]|DEBUG|listK: Database.QueryLocator[Query=SELECT InThisWeek__c FROM kdKnowledgeDetail__c WHERE InThisWeek__c = true AND CreatedDate < 2018-05-15T09:45:59Z]
+18:46:01.999 (2999907234)|CUMULATIVE_LIMIT_USAGE
+18:46:01.999 (2999907234)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+18:46:01.999 (2999907234)|CUMULATIVE_LIMIT_USAGE_END
+
+18:46:01.999 (2999944890)|CODE_UNIT_FINISHED|execute_anonymous_apex
+18:46:01.999 (3001126681)|EXECUTION_FINISHED

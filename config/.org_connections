@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Sandbox",
+        "id": "cd2e3700-3df5-11e8-97aa-cf70108fb77d",
+        "instanceUrl": "https://cs6.salesforce.com"
+    },
+    {
+        "name": "Full Sandbox",
+        "id": "12bdd0f0-993b-11e8-b9af-e14b11dd3d38",
+        "instanceUrl": "https://au-portal--FullSand.cs57.my.salesforce.com"
+    }
+]
